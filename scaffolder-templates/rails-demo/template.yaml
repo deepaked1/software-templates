@@ -5,7 +5,7 @@ metadata:
   title: Rails template
   description: scaffolder Rails app
 spec:
-  owner: backstage/techdocs-core
+  owner: deepaked1
   type: service
 
   parameters:
@@ -122,7 +122,7 @@ spec:
         url: ./template
         values:
           name: ${{ parameters.name }}
-          owner: ${{ parameters.owner }}      
+          owner: deepaked1
           system: ${{ parameters.system }}
           railsArguments: ${{ parameters.railsArguments }}
 
@@ -139,7 +139,7 @@ spec:
           spec:
             type: service
             lifecycle: production
-            owner: ${{ parameters.owner }}
+            owner: deepaked1
         filePath: 'catalog-info.yaml'
 
     - id: publish

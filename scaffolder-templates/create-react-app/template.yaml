@@ -8,7 +8,7 @@ metadata:
     - react
     - cra
 spec:
-  owner: web@example.com
+  owner: deepaked1
   type: website
   parameters:
     - title: Provide some simple information
@@ -56,7 +56,7 @@ spec:
           component_id: ${{ parameters.component_id }}
           description: ${{ parameters.description }}
           destination: ${{ parameters.repoUrl | parseRepoUrl }}
-          owner: ${{ parameters.owner }}
+          owner: deepaked1
 
     - id: publish
       name: Publish

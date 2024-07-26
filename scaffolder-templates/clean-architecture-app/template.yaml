@@ -9,7 +9,7 @@ metadata:
     - recommended
     - java
 spec:
-  owner: user:guest
+  owner: deepaked1
   type: service
 
   # These parameters are used to generate the input form in the frontend, and are
@@ -104,7 +104,7 @@ spec:
           coverage: ${{ parameters.coverage }}
           lombok: ${{ parameters.lombok }}
           metrics: ${{ parameters.metrics }}
-          owner: ${{ parameters.owner }}
+          owner: deepaked1
 
     # This step publishes the contents of the working directory to GitHub.
     - id: publish

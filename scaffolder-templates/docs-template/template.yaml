@@ -9,7 +9,7 @@ metadata:
     - techdocs
     - mkdocs
 spec:
-  owner: backstage/techdocs-core
+  owner: deepaked1
   type: documentation
 
   parameters:
@@ -61,7 +61,7 @@ spec:
           name: ${{ parameters.name }}
           description: ${{ parameters.description }}
           destination: ${{ parameters.repoUrl | parseRepoUrl }}
-          owner: ${{ parameters.owner }}
+          owner: deepaked1
 
     - id: publish
       name: Publish
